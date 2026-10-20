@@ -1,14 +1,17 @@
 import requests
+import pytest
+
 
 
 def add(a, b):
     return a + b
 
-
+@pytest.mark.smoke
 def test_add():
     assert add(1, 2) == 3
 
 
+@pytest.mark.smoke
 def test_add_negative():
     assert add(-1, -2) == -3
 
