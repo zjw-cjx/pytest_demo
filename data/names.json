@@ -1,0 +1,7 @@
+[
+  {"name": "kimi", "expected": "kimi"},
+  {"name": "alice", "expected": "alice"},
+  {"name": "zhangsan", "expected": "zhangsan"},
+  {"name": "li si", "expected": "li si"},
+  {"name": "wangwu", "expected": "wangwu"}
+]
